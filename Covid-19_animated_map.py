@@ -19,6 +19,7 @@ init_notebook_mode(connected=True)
 
 
 # Считываем данные
+# Данные можно скачать по этой ссылке или же указать её: https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
 df = pd.read_csv("covid_19_data.csv", encoding='utf-8')
 
 
